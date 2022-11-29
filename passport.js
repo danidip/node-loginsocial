@@ -27,6 +27,7 @@ module.exports = function(passport) {
 	});
 
 	// Configuración del autenticado con Twitter
+	
 	passport.use(new TwitterStrategy({
 		consumerKey		 : config.twitter.key,
 		consumerSecret	: config.twitter.secret,
